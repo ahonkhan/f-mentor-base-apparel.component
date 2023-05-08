@@ -12,7 +12,62 @@
 </head>
 
 <body>
+    <main class="flex flex-col-reverse md:flex-row lg:justify-end">
+        <div class="main-overlay w-screen h-screen fixed "></div>
 
+        <div class="main-left relative  w-full md:min-h-screen">
+            <div class="wrapper px-[40px] pb-[92px] pt-[66px]">
+                <div class="inner-box lg:w-[445px] md:ml-[40px] lg:ml-[80px] xl:ml-[164px] ">
+                    <!-- logo -->
+                    <div class="logo hidden md:block z-[999]">
+                        <img src="./images/logo.svg" alt="">
+                    </div>
+                    <div class="md:h-[135px]"></div>
+                    <div class="contents">
+                        <h1
+                            class="main-title font-[600] leading-[44px] text-center md:text-start md:leading-[70px] uppercase text-[40px] md:text-[66px] md:tracking-[20px] tracking-[15px]">
+                            <span class="font-[300]">We're <br class="md:hidden"> </span> coming <br class="md:hidden">
+                            soon
+                        </h1>
+                        <div class="md:h-8 h-4"></div>
+                        <p class="content-disc font-[400] text-center md:text-start">
+                            Hello fellow shoppers! We're currently building our new fashion store.
+                            Add your email below to stay up-to-date with announcements and our launch deals.
+
+                        </p>
+                        <div class="md:h-[44px] h-4"></div>
+                        <div class="state-wrapper">
+
+                            <div class="search-wrapper relative">
+                                <div class="flex search-box items-center  h-[50px] md:h-[56px] ">
+                                    <input placeholder="Email Address" type="text"
+                                        class="px-8 outline-none bg-transparent w-full">
+                                    <div class="error-icon shrink-0 pr-[115px]">
+                                        <img src="./images/icon-error.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="absolute  right-0 h-full top-0 right-button">
+                                    <button class="submit w-[90px] md:w-[100px] flex items-center justify-center">
+                                        <img src="./images/icon-arrow.svg" alt="">
+                                    </button>
+                                </div>
+
+                            </div>
+                            <p class="error-text text-[14px] px-8 py-2">Please provide a valid email</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-right shrink-0 z-[999]">
+            <img class="xl:w-auto md:w-[40vw]  min-h-screen hidden md:block" src="./images/hero-desktop.jpg" alt="">
+            <img class="w-full md:hidden" src="./images/hero-mobile.jpg" alt="">
+        </div>
+        <div class="logo md:hidden p-8 z-[999]">
+            <img src="./images/logo.svg" alt="">
+        </div>
+    </main>
 </body>
 
 </html>
